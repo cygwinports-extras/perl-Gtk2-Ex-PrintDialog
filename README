@@ -1,0 +1,62 @@
+perl-Gtk2-Ex-PrintDialog 
+------------------------------------------- 
+This module implements a dialog widget that can be used to print
+PostScript data. It is intended to be a lightweight and pure-perl
+alternative to the Gnome2::Print libraries.
+
+Runtime requirements:
+  perl-5.8.8-4
+  perl-Glib-1.144-1
+  perl-Gtk2-1.146-1
+  perl-Locale-gettext-1.05-1
+
+Canonical homepage:
+  http://search.cpan.org/~gbrown/Gtk2-Ex-PrintDialog/
+
+Canonical download:
+  http://www.cpan.org/authors/id/G/GB/GBROWN/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gtk2-Ex-PrintDialog-0.03-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gtk2-Ex-PrintDialog-0.03-1.cygport all
+
+This will create:
+  /usr/src/perl-Gtk2-Ex-PrintDialog-0.03-1-src.tar.bz2
+  /usr/src/perl-Gtk2-Ex-PrintDialog-0.03-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gtk2-Ex-PrintDialog.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gtk2/Ex/PrintDialog/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/Gtk2/Ex/PrintDialog/Darwin.pm
+  /usr/lib/perl5/vendor_perl/5.8/Gtk2/Ex/PrintDialog/Linux.pm
+  /usr/lib/perl5/vendor_perl/5.8/Gtk2/Ex/PrintDialog/Unix.pm
+  /usr/lib/perl5/vendor_perl/5.8/Gtk2/Ex/PrintDialog.pm
+  /usr/share/doc/Cygwin/perl-Gtk2-Ex-PrintDialog-0.03.README
+  /usr/share/doc/perl-Gtk2-Ex-PrintDialog-0.03/README
+  /usr/share/man/man3/Gtk2.Ex.PrintDialog.3pm.gz
+  /usr/share/man/man3/Gtk2.Ex.PrintDialog.Darwin.3pm.gz
+  /usr/share/man/man3/Gtk2.Ex.PrintDialog.Linux.3pm.gz
+  /usr/share/man/man3/Gtk2.Ex.PrintDialog.Unix.3pm.gz
+  /usr/share/perl/cygwin-pods/Gtk2-Ex-PrintDialog.pod
+
+------------------
+
+Port Notes:
+
+----- version 0.03-1 -----
+Version bump; built with cygport.
+
+----- version 0.02-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

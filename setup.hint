@@ -1,0 +1,6 @@
+category: Perl Gnome
+requires: perl perl-Glib perl-Gtk2 perl-Locale-gettext
+sdesc: "Perl module for Gtk2 PostScript printing dialog"
+ldesc: "This module implements a dialog widget that can be used to print
+PostScript data. It is intended to be a lightweight and pure-perl
+alternative to the Gnome2-Print libraries."
